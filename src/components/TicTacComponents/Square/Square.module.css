@@ -1,0 +1,31 @@
+.win_green {
+  color: var(--green-700);
+}
+
+.cuadricula {
+  border: 1px solid #cbd5e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 90px;
+  height: 90px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.display {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  font-family: var(--rubik);
+}
+
+.container_board {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

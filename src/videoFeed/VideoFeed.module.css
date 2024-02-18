@@ -1,0 +1,67 @@
+.containerVideoFeed{
+    width: 33%;
+    margin: 5px auto;
+    align-items: center;
+    text-align: center;
+}
+.textURL{
+    width: 100%;
+    border-radius: 8px;
+    margin: 5px 0px;
+}
+.botonURL{
+    background-color: #2f73e0;
+    color: #fff;
+    padding: 1px 7px;
+    border-style: none;
+    border-radius: 6px;
+}
+
+/* Para el video de yt & los botones de velocidad*/
+
+.cajaVideoFeed{
+    width: 100% !important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+/* URL ( video ) */
+.cajaVideoURL{
+    margin-bottom: 5px;
+}
+.botonesCrlVideoPlay{
+    background-color: #2f73e0;
+    color: #fff;
+    padding: 1px 7px;
+    border-style: none;
+    border-radius: 6px; 
+}
+.botonesCrlVideo button:not(:first-child) {
+    background-color: #fff;
+    color: #2f73e0;
+    padding: 1px 7px;
+    border-style: none;
+    border-radius: 6px;
+    border: solid 1px #2f73e0;
+    margin: 2px;
+}
+.botonesCrlVideo button:active{
+    background-color: #2f73e0;
+    color: #fff;
+    padding: 1px 7px;
+    border-style: none;
+    border-radius: 6px;
+}
+.botonesCrlVideo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.botonesCrlVideo button:first-child {
+    margin-right: auto; 
+}
+.activeButton {
+    background-color: #2f73e0 !important;
+    color: #fff !important;
+}

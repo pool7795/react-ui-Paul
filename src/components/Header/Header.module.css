@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  background: #eff4ff;
+  padding-inline: 70px;
+  height: 64px;
+  align-items: center;
+  justify-content: center;
+}
+
+.info_content {
+  display: flex;
+  height: 64px;
+  width: 100%;
+  padding-inline: 16px;
+  justify-content: space-between;
+  padding-top: 17px;
+}
+
+.title {
+  font-family: var(--nunito);
+  font-size: 36px;
+  font-weight: 700;
+  cursor: pointer;
+
+}
+
+.buttons {
+  border-radius: 20px;
+}
+.button_language {
+  width: 24px;
+  height: 24px;
+  border: none;
+  margin-right: 9px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+
+}
+
+
+.button_language:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.3);
+}
